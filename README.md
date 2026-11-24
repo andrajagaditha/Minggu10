@@ -2,6 +2,9 @@
 
 Proyek ini mengikuti instruksi Praktikum Minggu 10 pada Modul Praktikum PWD Minggu 9–12.
 
+Nama ; Diyandra Jagadditha
+Nim : A12.2025.07407
+
 ## Isi folder
 - `index.php` — form Buku Tamu Kampus dengan input nama, email, dan pesan.
 - `style.css` — tampilan form responsif.
