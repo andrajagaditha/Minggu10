@@ -6,20 +6,11 @@ Nama ; Diyandra Jagadditha
 Nim : A12.2025.07407
 
 ## Isi folder
-- `index.php` — form Buku Tamu Kampus dengan input nama, email, dan pesan.
-- `style.css` — tampilan form responsif.
-- `latihan.php` — latihan variabel, `echo`, dan percabangan `if`.
-- `proses.php` — halaman tujuan sementara sesuai target Minggu 10; belum membaca data POST.
-- `cek-lingkungan.php` — pemeriksa versi PHP dan ketersediaan ekstensi `mbstring`.
-
-## Cara menjalankan dengan XAMPP
-1. Salin folder `minggu10` ke `C:\xampp\htdocs\`.
-2. Buka XAMPP Control Panel, lalu klik **Start** pada Apache. MySQL tidak diperlukan.
-3. Buka `http://localhost/minggu10/index.php`.
-4. Buka latihan PHP di `http://localhost/minggu10/latihan.php`.
-5. Buka pemeriksa lingkungan di `http://localhost/minggu10/cek-lingkungan.php`.
-
-Jika Apache menggunakan port selain 80, sesuaikan URL, misalnya `http://localhost:8080/minggu10/index.php`.
+- `index.php` — formulir Buku Tamu Kampus yang memuat input nama, email, dan pesan.
+- `style.css` — pengaturan tata letak agar formulir tampil responsif.
+- `latihan.php` — kode latihan dasar variabel, echo, dan kondisi if.
+- `proses.php` — halaman tujuan awal sesuai capaian Minggu 10 (belum memproses kiriman data POST).
+- `cek-lingkungan.php` — skrip untuk mengecek versi PHP serta status ekstensi `mbstring`.
 
 ## Praktik subbab 10.2
 Lakukan satu perubahan setiap percobaan pada `latihan.php`, simpan, lalu muat ulang browser.
@@ -30,8 +21,7 @@ Lakukan satu perubahan setiap percobaan pada `latihan.php`, simpan, lalu muat ul
 | W10-02 | Ubah `$jumlah = 3;` | Jumlah pesan: 3; Form siap |
 | W10-03 | Dengan jumlah 3, ubah `$status = "tutup";` | Jumlah pesan: 3; Form ditutup |
 
-Setelah pengujian, kembalikan nilai menjadi `$jumlah = 1;` dan `$status = "aktif";`.
-Untuk diagnosis sintaks, modul meminta menghapus sementara satu titik koma, mengamati error, lalu memulihkan titik koma. Jangan menyimpan kode rusak sebagai hasil akhir.
+Setelah seluruh uji selesai, kembalikan nilai awal ke $jumlah = 1; dan $status = "aktif";. Untuk latihan membaca pesan error sintaks, hapus sementara satu tanda titik koma (;), perhatikan pesan kesalahannya, lalu pasang kembali sebelum menyimpan versi final.
 
 ## Pemeriksaan hasil
 - Form menampilkan kolom Nama, Email, Pesan, dan tombol Kirim.
